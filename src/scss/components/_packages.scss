@@ -1,0 +1,26 @@
+.packages {
+  margin-bottom: 105px;
+
+  &__content {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    justify-content: center;
+
+    @include wide-screen {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include mobile-big-landscape {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  &__title {
+    font-size: 4.3rem;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 50px;
+  }
+}

@@ -1,0 +1,87 @@
+.card {
+  min-width: 305px;
+  max-width: 410px;
+  padding: 15px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+  &__title {
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  &__descr {
+    font-size: 1.6rem;
+    max-width: 250px;
+    margin-bottom: 15px;
+  }
+
+  &-price {
+    margin-bottom: 20px;
+  }
+
+  &-price__value {
+    font-size: 2.8rem;
+    color: tomato;
+    font-weight: 600;
+  }
+
+  &-price__descr {
+    font-size: 1.6rem;
+    color: grey;
+  }
+
+  &__sheet {
+    font-size: 1.6rem;
+    color: grey;
+  }
+
+  &__button {
+    margin-bottom: 10px;
+  }
+
+  &__divider {
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+.card-feat {
+
+  &__title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+}
+
+.card-feat-list {
+
+  &__item:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+  }
+
+  &__item--disabled {
+    color: grey;
+  }
+
+  &__item::before {
+    content: url('../../img/svg/arrow.png');
+    display: flex;
+    margin-right: 15px;
+  }
+}
