@@ -35,11 +35,11 @@ a {
 }
 
 .site-container {
-  overflow: hidden; // если используете на сайте position: sticky - уберите эту настройку
+  overflow: hidden;
 }
 
 .is-hidden {
-  display: none !important; /* stylelint-disable-line declaration-no-important */
+  display: none !important;
 }
 
 .btn {
@@ -53,6 +53,7 @@ li {
   list-style-type: none;
   padding: 0;
 }
+
 ul {
   padding: 0;
 }
@@ -109,4 +110,9 @@ input {
 
 .page--ios .dis-scroll {
   position: relative;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
 }

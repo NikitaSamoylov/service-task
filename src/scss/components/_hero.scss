@@ -1,0 +1,50 @@
+.hero {
+  background-image: url("../img/cover-img.jpg");
+  background-color: grey;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 336px;
+  background-position: center;
+  padding-top: 115px;
+  padding-bottom: 115px;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    font-size: 5.6rem;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 35px;
+
+    @include mobile {
+      font-size: 4.6rem;
+    }
+  }
+
+  &__subtitle {
+    font-size: 4.6rem;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 55px;
+
+    @include mobile {
+      font-size: 3.6rem;
+    }
+  }
+
+  &__sale {
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid white;
+  }
+
+  &__btn {
+    width: 150px;
+    text-align: center;
+  }
+}
