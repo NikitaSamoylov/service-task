@@ -6,9 +6,9 @@
   cursor: pointer;
   padding: 18px;
   width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
+  // text-align: left;
+  // border: none;
+  // outline: none;
   transition: 0.4s;
   border-bottom: 1px solid lightgrey;
   font-size: 1.6rem;
@@ -20,6 +20,7 @@
     outline: none;
     text-align: left;
     margin-right: 15px;
+    cursor: pointer;
   }
 
   &__icon {
