@@ -4,7 +4,7 @@ const dailySessionTimer = document.querySelector('.timer__count--daily-session')
 const terminalTimer = document.querySelector('.timer__count--terminal');
 const newsTimer = document.querySelector('.timer__count--news');
 const groupTimer = document.querySelector('.timer__count--group');
-const daily60Timer = document.querySelector('.timer__count--daily60');
+const daily60Timer = document.querySelector('.timer__count--daily-60');
 
 const dailySessionDeadline = '2024-07-29';
 const terminalDeadline = '2024-08-02';

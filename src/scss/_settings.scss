@@ -127,3 +127,30 @@ h1 {
 section {
   margin-bottom: 105px;
 }
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(213, 212, 211);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(122, 122, 184);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  height: 12px;
+  width: 12px;
+  background: rgb(213, 212, 211);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  background: rgb(122, 122, 184);
+  border-radius: 20px;
+  cursor: pointer;
+}
