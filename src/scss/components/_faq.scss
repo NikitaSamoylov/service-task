@@ -1,0 +1,40 @@
+.accordion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  border-bottom: 1px solid lightgrey;
+  font-size: 1.6rem;
+
+  &__btn {
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    text-align: left;
+    margin-right: 15px;
+  }
+
+  &__icon {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+}
+
+.panel {
+  font-size: 1.6rem;
+  margin-top: 18px;
+  margin-bottom: 15px;
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
