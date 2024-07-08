@@ -1,7 +1,7 @@
 .card {
   min-width: 305px;
   max-width: 410px;
-  padding: 15px;
+  padding: 35px 15px 25px 15px;
   border-radius: 10px;
   -webkit-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
   -moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
@@ -11,10 +11,17 @@
   margin-left: 5px;
   margin-right: 5px;
 
+  &__header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
   &__title {
     font-size: 3.2rem;
     font-weight: 600;
-    margin-bottom: 20px;
   }
 
   &__descr {
@@ -83,5 +90,10 @@
     content: url('../../img/svg/arrow.png');
     display: flex;
     margin-right: 15px;
+  }
+
+  &__item--disabled::before {
+    content: '';
+    padding-left: 12px;
   }
 }

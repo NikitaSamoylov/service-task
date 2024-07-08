@@ -4,6 +4,7 @@
   &__content {
     display: grid;
     gap: 15px;
+    row-gap: 35px;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
     justify-content: center;
