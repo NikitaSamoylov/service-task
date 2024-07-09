@@ -1,4 +1,4 @@
-// import './vendor/aos-init';
+import './vendor/aos-init';
 import './components/timer';
 import './components/main-card';
 import './components/additional-services';
